@@ -1,0 +1,9 @@
+par b=0.1
+par g=0.05
+s'=-b*s*y
+y'=b*s*y-g*y
+r'=g*y
+init s=0.99 y=0.01 r=0.0
+@ total=200
+@ output=sir_xpp.out
+done

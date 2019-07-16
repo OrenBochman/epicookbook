@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+    <VectorField Name="sir_ode">
+    <Parameter Name="beta" DefaultValue="0.1" Description="Transmission parameter"/>
+    <Parameter Name="mu" DefaultValue="0.05" Description="Recovery rate"/>
+    <StateVariable Name="S"  Formula="-beta*S*I" DefaultInitialCondition="0.99"/>
+    <StateVariable Name="I" Formula="beta*S*I-mu*I" DefaultInitialCondition="0.01"/>
+    <StateVariable Name="R" Formula="mu*I" DefaultInitialCondition="0.0"/>
+</VectorField>
