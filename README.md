@@ -1,6 +1,6 @@
 # epicookbook
 
-Model code from the [Epicookbook](http://epirecip.es/epicookbook/). The original Jupyter Notebooks can be found [here](https://github.com/epirecipes/epicookbook/tree/master/notebooks) and [here](https://github.com/epirecipes/epicookbook/tree/master/updatedJulia). Code is provided in multiple languages and libraries, including R, Python, Matlab/Octave, C/C++, Fortran, and others.
+Model code from the [Epicookbook](http://epirecip.es/epicookbook/). The original Jupyter Notebooks can be found [here](https://github.com/epirecipes/epicookbook/tree/master/notebooks) and [here](https://github.com/epirecipes/epicookbook/tree/master/updatedJulia) or [here](https://gke.mybinder.org/v2/gh/epirecipes/epicookbook/master?filepath=notebooks). Code is provided in multiple languages and libraries, including R, Python, Matlab/Octave, C/C++, Fortran, and others.
 
 The directory structure of the `model` folder is provided below (using the Bash `tree` command):
 
