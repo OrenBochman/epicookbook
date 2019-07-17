@@ -1,6 +1,27 @@
 # epicookbook
 
-Model code from the [Epicookbook](http://epirecip.es/epicookbook/). The original Jupyter Notebooks can be found [here](https://github.com/epirecipes/epicookbook/tree/master/notebooks) and [here](https://github.com/epirecipes/epicookbook/tree/master/updatedJulia) or [here](https://gke.mybinder.org/v2/gh/epirecipes/epicookbook/master?filepath=notebooks). Code is provided in multiple languages and libraries, including R, Python, Matlab/Octave, C/C++, Fortran, and others.
+Model code from the [epicookbook](http://epirecip.es/epicookbook/), an online book made with . The original Jupyter Notebooks can be found [here](https://github.com/epirecipes/epicookbook/tree/master/notebooks) and [here](https://github.com/epirecipes/epicookbook/tree/master/updatedJulia) or [here](https://gke.mybinder.org/v2/gh/epirecipes/epicookbook/master?filepath=notebooks). Code is provided in multiple languages and libraries, including R, Python, Matlab/Octave, C/C++, Fortran, and others. As the authors state:
+
+> This project aims to collate mathematical models of infectious disease transmission, with implementations in R, Python, and Julia.
+
+> Categories of models include:
+
+> * Simple deterministic models using ordinary differential equations
+> * Standard compartmental models
+> * Non-exponential distributions of infectious periods
+> * Delay differential equations
+> * Method of stages
+> * Infection-age models
+> * Simple stochastic models
+> * Gillespie’s stochastic simulation algorithm
+> * Discrete time
+> * Stochastic differential equations
+> * Models with time-varying parameters
+> * Spatial models
+> * Network models
+> * Pair approximations
+> * Edge based models
+> * Applications to specific disease systems
 
 The directory structure of the `model` folder is provided below (using the Bash `tree` command):
 
